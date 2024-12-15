@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 500px;
+  width: 100%;
+  height: 100vh;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #ff6b6b;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+article input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.most-popular {
+  background-color: #f5f5f5;
+  padding-top: 2rem;
+}
+
+.most-popular-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+  margin-right: 8px;
+}
+
+input[type="radio"]:checked {
+  border-color: #252525;
+  background-color: #ff6b6b;
+}
+
+.original-price {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  color: #aaa;
+  margin-left: 0.5rem;
+}
+
+.offer-tag {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+article select {
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.options-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: auto;
+  padding-left: 2rem;
+}
